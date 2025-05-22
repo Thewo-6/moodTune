@@ -1,2 +1,1 @@
-# moodTune
-A lightweight AI-powered web app that analyzes your mood from text and recommends music that fits how you feel. Built using Hugging Face Transformers, Spotify audio features, and Streamlit.
+MoodTune is an AI-based music recommendation system that detects a user’s emotional state from natural language input (like “I’m feeling overwhelmed today”) and suggests songs that match or elevate the mood. The app uses a fine-tuned BERT model for emotion classification and Spotify audio features for curated mood-to-music matching. Quick, responsive, and demo-ready in one click.
