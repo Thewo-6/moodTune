@@ -11,4 +11,4 @@ def get_emotion(text):
     predicted_class = torch.argmax(outputs.logits, dim=1)
     return model.config.id2label[predicted_class.item()]
 
-print(get_emotion("I'm feeling very happy today."))
+print(get_emotion("I'm feeling hardworker today"))
