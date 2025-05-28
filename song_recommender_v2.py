@@ -25,4 +25,18 @@ def recommend_from_spotify(emotion, limit=3, open_links=True):
         
         full_song_url = item['external_urls']['spotify']  # 👈 this is the full song link
 
-        print
+        print(f"🎵 {name} by {artist}")
+
+        if full_song_url:
+            if open_links:
+                webbrowser.open(full_song_url)
+
+    return recommendations
+
+# Example usage
+if __name__ == "__main__":
+    emotion = "happy"  # Replace with actual detected mood
+    tracks = recommend_from_spotify(emotion)
+    for i, track in enumerate(tracks, 1):
+        print(f"{i}. {track['Song']} by {track['Artist']}")
+        print(f"   Preview: {track['Preview_URL']}")
