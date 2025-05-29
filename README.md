@@ -17,7 +17,7 @@
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/yourusername/moodtune.git
+git clone https://github.com/Thewo-6/moodtune.git
 cd moodtune
 
 2. Create a virtual environment and install dependencies
