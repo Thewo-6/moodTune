@@ -2,3 +2,11 @@ streamlit>=1.25.0
 transformers>=4.38.0
 torch>=2.0.0
 pandas>=2.0.0
+spotipy>=2.23.0
+deepface>=0.0.79
+opencv-python>=4.9.0
+tensorflow==2.11.0
+deepface==0.0.79
+tf-keras==2.11.0
+Pillow
+requests
