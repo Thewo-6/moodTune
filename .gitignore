@@ -1,8 +1,32 @@
-# =====================================
+# =========================
 # Python cache and environments
-# =====================================
+# =========================
 __pycache__/
 *.py[cod]
 *.swp
+
+# Virtual environments
 .venv/
-.env/
+venv/
+env/
+moodtune-env/
+
+# System files
+.DS_Store
+.cache/
+.env
+*.log
+
+# DeepFace downloads
+~/.deepface/
+~/.keras/
+~/.cache/
+
+# VSCode settings (optional)
+.vscode/
+
+# Streamlit cache
+.streamlit/
+
+# Jupyter/IPython notebooks (if used)
+.ipynb_checkpoints/
